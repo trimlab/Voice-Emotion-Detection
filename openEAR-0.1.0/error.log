@@ -1,0 +1,10 @@
+src/waveSink.cpp: In constructor ‘cWaveSink::cWaveSink(const char*)’:
+src/waveSink.cpp:97:23: warning: converting to non-pointer type ‘long int’ from NULL [-Wconversion-null]
+   sampleBufferLen(NULL)
+                       ^
+src/SEMAINExtract.cpp:197:2: warning: #warning cannot build SEMAINExtract without being configured with libsemaineapi support! [-Wcpp]
+ #warning cannot build SEMAINExtract without being configured with libsemaineapi support!
+  ^~~~~~~
+/usr/bin/install: cannot create regular file '/usr/local/lib/libopensmile.so.0.0.0': Permission denied
+make[1]: *** [Makefile:653: install-libLTLIBRARIES] Error 1
+make: *** [Makefile:2056: install-am] Error 2
